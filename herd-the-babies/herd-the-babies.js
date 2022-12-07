@@ -4,8 +4,6 @@ function herdTheBabies (str) {
   const chars = str.split("").sort((a,b) => {
    return a.toLowerCase().charCodeAt(0)-b.toLowerCase().charCodeAt(0) || a.charCodeAt(0) - b.charCodeAt(0)
   })
-  console.log(chars)
-  console.log(chars.join(""))
   return chars.join("")
 };
 
